@@ -1,0 +1,33 @@
+[
+  {
+    "file": "trumbull-declaration.jpg",
+    "title": "Declaration of Independence",
+    "creator": "John Trumbull; reproduction credited to Architect of the Capitol",
+    "date": "1817–1818; in the Capitol in early 1819",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+    "license": "Public domain; faithful reproduction of public domain art; U.S. federal government photograph",
+    "description": "Retrospective painting of the drafting committee presenting its work to the Second Continental Congress on June 28, 1776. This is not a photograph or an eyewitness record of a signing on July 4. Architect of the Capitol dates production to August 1817–September 1818; Commons and U.S. Currency Education Program catalog the image as 1819. 1800×1182 JPEG, resized and compressed without compositional edits.",
+    "rightsSourceUrl": "https://www.uscurrency.gov/media/multimedia-library/25",
+    "historicalContextUrl": "https://www.aoc.gov/explore-capitol-campus/art/declaration-independence"
+  },
+  {
+    "file": "declaration-parchment.jpg",
+    "title": "The Declaration of Independence — original parchment, front",
+    "creator": "Continental Congress; digital reproduction courtesy of the National Archives",
+    "date": "1776",
+    "sourceUrl": "https://www.archives.gov/founding-docs/declaration",
+    "license": "Public domain; National Archives explicitly permits reuse and requests source credit",
+    "description": "Image of the actual aged parchment Declaration of Independence, rather than the 1823 William J. Stone engraving. The Declaration was adopted July 4, 1776; most delegates signed the engrossed parchment on August 2. 630×766 JPEG, compressed for the web without content changes.",
+    "rightsSourceUrl": "https://www.archives.gov/founding-docs/downloads"
+  },
+  {
+    "file": "liberty-1900.jpg",
+    "title": "Statue of Liberty, New York, N.Y.",
+    "creator": "Detroit Publishing Co.; Library of Congress, Prints and Photographs Division, Detroit Publishing Company Collection",
+    "date": "Between 1900 and 1920",
+    "sourceUrl": "https://www.loc.gov/item/2016795971/",
+    "license": "No known restrictions on publication; historic Detroit Publishing Company photograph",
+    "description": "Authentic historic photograph of the Statue of Liberty viewed from the harbor. Library of Congress item 2016795971; reproduction LC-DIG-det-4a23254. Date range and rights statement checked in the Library record and JSON metadata. 1024×811 JPEG, compressed without cropping.",
+    "rightsSourceUrl": "https://www.loc.gov/item/2016795971/?fo=json"
+  }
+]

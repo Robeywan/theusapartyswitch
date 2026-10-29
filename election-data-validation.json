@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "elections": 60,
+  "officialCandidateTotalsChecked": 153,
+  "sourceCorrections": [
+    "1800 Virginia Burr21 restored using Library of Congress",
+    "1824 winner corrected to John Quincy Adams; Jackson electoral plurality retained"
+  ],
+  "conditionalResults": [
+    "1820 Missouri conditional",
+    "1836 Michigan conditional",
+    "1868 includes contested Georgia9",
+    "1872 excludes rejected Greeley3 and Arkansas/Louisiana"
+  ],
+  "checkedAt": "2026-10-29"
+}

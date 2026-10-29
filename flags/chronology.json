@@ -1,0 +1,521 @@
+{
+  "referenceDate": "July 4",
+  "description": "The year selector shows the United States national flag in force on July 4 of that year. Star additions take effect after state admission, rather than on the admission date. Before 1912 the drawings use representative arrangements and proportions; the 1912, 1959, and 1960 layouts follow the standardized designs. These are newly drawn illustrations, not archival flag photographs.",
+  "sources": [
+    {
+      "title": "U.S. Department of Veterans Affairs — U.S. Flag and Holidays, historical star-count chronology",
+      "url": "https://www.mirecc.va.gov/visn20/Newsflash/US-Flag.asp"
+    },
+    {
+      "title": "U.S. Army Quartermaster Museum — The Story Behind A New Star for the Flag",
+      "url": "https://qmmuseum.army.mil/research/history-heritage/former-qm-corps/heraldry/The-Story-Behind-A-New-Star-for-the-Flag.html"
+    },
+    {
+      "title": "National Park Service — Lewis’ and Clark’s American Flag, 15 stars and 15 stripes",
+      "url": "https://www.nps.gov/articles/000/lewis-and-clark-s-american-flag.htm"
+    },
+    {
+      "title": "Eisenhower Presidential Library — Design of the 49- and 50-Star Flags",
+      "url": "https://www.eisenhowerlibrary.gov/research/online-documents/design-49-and-50-star-flags"
+    },
+    {
+      "title": "Smithsonian National Air and Space Museum — 48-star flag with six rows of eight",
+      "url": "https://www.si.edu/object/flag-united-states-48-star-lafayette-escadrille:nasm_A19600188000"
+    }
+  ],
+  "versions": [
+    {
+      "fromYear": 1777,
+      "stars": 13,
+      "stripes": 13,
+      "asset": "flags/us-13.svg",
+      "label": "13 stars · 13 stripes",
+      "description": "13 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1777-06-14",
+      "throughYear": 1794,
+      "representativeArrangement": true,
+      "rowCounts": [
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "fromYear": 1795,
+      "stars": 15,
+      "stripes": 15,
+      "asset": "flags/us-15.svg",
+      "label": "15 stars · 15 stripes",
+      "description": "15 stars · 15 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag. The 15-star and 15-stripe design remained official until 1818, even as additional states entered the Union.",
+      "effectiveFrom": "1795-05-01",
+      "throughYear": 1817,
+      "representativeArrangement": true,
+      "rowCounts": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "fromYear": 1818,
+      "stars": 20,
+      "stripes": 13,
+      "asset": "flags/us-20.svg",
+      "label": "20 stars · 13 stripes",
+      "description": "20 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1818-07-04",
+      "throughYear": 1818,
+      "representativeArrangement": true,
+      "rowCounts": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "fromYear": 1819,
+      "stars": 21,
+      "stripes": 13,
+      "asset": "flags/us-21.svg",
+      "label": "21 stars · 13 stripes",
+      "description": "21 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1819-07-04",
+      "throughYear": 1819,
+      "representativeArrangement": true,
+      "rowCounts": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "fromYear": 1820,
+      "stars": 23,
+      "stripes": 13,
+      "asset": "flags/us-23.svg",
+      "label": "23 stars · 13 stripes",
+      "description": "23 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1820-07-04",
+      "throughYear": 1821,
+      "representativeArrangement": true,
+      "rowCounts": [
+        5,
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "fromYear": 1822,
+      "stars": 24,
+      "stripes": 13,
+      "asset": "flags/us-24.svg",
+      "label": "24 stars · 13 stripes",
+      "description": "24 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1822-07-04",
+      "throughYear": 1835,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1836,
+      "stars": 25,
+      "stripes": 13,
+      "asset": "flags/us-25.svg",
+      "label": "25 stars · 13 stripes",
+      "description": "25 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1836-07-04",
+      "throughYear": 1836,
+      "representativeArrangement": true,
+      "rowCounts": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "fromYear": 1837,
+      "stars": 26,
+      "stripes": 13,
+      "asset": "flags/us-26.svg",
+      "label": "26 stars · 13 stripes",
+      "description": "26 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1837-07-04",
+      "throughYear": 1844,
+      "representativeArrangement": true,
+      "rowCounts": [
+        5,
+        5,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "fromYear": 1845,
+      "stars": 27,
+      "stripes": 13,
+      "asset": "flags/us-27.svg",
+      "label": "27 stars · 13 stripes",
+      "description": "27 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1845-07-04",
+      "throughYear": 1845,
+      "representativeArrangement": true,
+      "rowCounts": [
+        5,
+        6,
+        5,
+        6,
+        5
+      ]
+    },
+    {
+      "fromYear": 1846,
+      "stars": 28,
+      "stripes": 13,
+      "asset": "flags/us-28.svg",
+      "label": "28 stars · 13 stripes",
+      "description": "28 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1846-07-04",
+      "throughYear": 1846,
+      "representativeArrangement": true,
+      "rowCounts": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "fromYear": 1847,
+      "stars": 29,
+      "stripes": 13,
+      "asset": "flags/us-29.svg",
+      "label": "29 stars · 13 stripes",
+      "description": "29 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1847-07-04",
+      "throughYear": 1847,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1848,
+      "stars": 30,
+      "stripes": 13,
+      "asset": "flags/us-30.svg",
+      "label": "30 stars · 13 stripes",
+      "description": "30 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1848-07-04",
+      "throughYear": 1850,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1851,
+      "stars": 31,
+      "stripes": 13,
+      "asset": "flags/us-31.svg",
+      "label": "31 stars · 13 stripes",
+      "description": "31 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1851-07-04",
+      "throughYear": 1857,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        7,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1858,
+      "stars": 32,
+      "stripes": 13,
+      "asset": "flags/us-32.svg",
+      "label": "32 stars · 13 stripes",
+      "description": "32 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1858-07-04",
+      "throughYear": 1858,
+      "representativeArrangement": true,
+      "rowCounts": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "fromYear": 1859,
+      "stars": 33,
+      "stripes": 13,
+      "asset": "flags/us-33.svg",
+      "label": "33 stars · 13 stripes",
+      "description": "33 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1859-07-04",
+      "throughYear": 1860,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        7,
+        7,
+        7,
+        6
+      ]
+    },
+    {
+      "fromYear": 1861,
+      "stars": 34,
+      "stripes": 13,
+      "asset": "flags/us-34.svg",
+      "label": "34 stars · 13 stripes",
+      "description": "34 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag. The United States flag retained stars for states in rebellion during the Civil War.",
+      "effectiveFrom": "1861-07-04",
+      "throughYear": 1862,
+      "representativeArrangement": true,
+      "rowCounts": [
+        7,
+        7,
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "fromYear": 1863,
+      "stars": 35,
+      "stripes": 13,
+      "asset": "flags/us-35.svg",
+      "label": "35 stars · 13 stripes",
+      "description": "35 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag. The United States flag retained stars for states in rebellion during the Civil War.",
+      "effectiveFrom": "1863-07-04",
+      "throughYear": 1864,
+      "representativeArrangement": true,
+      "rowCounts": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "fromYear": 1865,
+      "stars": 36,
+      "stripes": 13,
+      "asset": "flags/us-36.svg",
+      "label": "36 stars · 13 stripes",
+      "description": "36 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag. The United States flag retained stars for states in rebellion during the Civil War.",
+      "effectiveFrom": "1865-07-04",
+      "throughYear": 1866,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1867,
+      "stars": 37,
+      "stripes": 13,
+      "asset": "flags/us-37.svg",
+      "label": "37 stars · 13 stripes",
+      "description": "37 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1867-07-04",
+      "throughYear": 1876,
+      "representativeArrangement": true,
+      "rowCounts": [
+        7,
+        8,
+        7,
+        8,
+        7
+      ]
+    },
+    {
+      "fromYear": 1877,
+      "stars": 38,
+      "stripes": 13,
+      "asset": "flags/us-38.svg",
+      "label": "38 stars · 13 stripes",
+      "description": "38 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1877-07-04",
+      "throughYear": 1889,
+      "representativeArrangement": true,
+      "rowCounts": [
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    },
+    {
+      "fromYear": 1890,
+      "stars": 43,
+      "stripes": 13,
+      "asset": "flags/us-43.svg",
+      "label": "43 stars · 13 stripes",
+      "description": "43 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1890-07-04",
+      "throughYear": 1890,
+      "representativeArrangement": true,
+      "rowCounts": [
+        6,
+        6,
+        6,
+        7,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "fromYear": 1891,
+      "stars": 44,
+      "stripes": 13,
+      "asset": "flags/us-44.svg",
+      "label": "44 stars · 13 stripes",
+      "description": "44 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1891-07-04",
+      "throughYear": 1895,
+      "representativeArrangement": true,
+      "rowCounts": [
+        8,
+        7,
+        7,
+        7,
+        7,
+        8
+      ]
+    },
+    {
+      "fromYear": 1896,
+      "stars": 45,
+      "stripes": 13,
+      "asset": "flags/us-45.svg",
+      "label": "45 stars · 13 stripes",
+      "description": "45 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1896-07-04",
+      "throughYear": 1907,
+      "representativeArrangement": true,
+      "rowCounts": [
+        8,
+        7,
+        8,
+        7,
+        8,
+        7
+      ]
+    },
+    {
+      "fromYear": 1908,
+      "stars": 46,
+      "stripes": 13,
+      "asset": "flags/us-46.svg",
+      "label": "46 stars · 13 stripes",
+      "description": "46 stars · 13 stripes. Representative row arrangement; early star layouts and proportions varied. This is an illustration of the official star and stripe count, not a replica of one surviving flag.",
+      "effectiveFrom": "1908-07-04",
+      "throughYear": 1911,
+      "representativeArrangement": true,
+      "rowCounts": [
+        8,
+        7,
+        8,
+        8,
+        7,
+        8
+      ]
+    },
+    {
+      "fromYear": 1912,
+      "stars": 48,
+      "stripes": 13,
+      "asset": "flags/us-48.svg",
+      "label": "48 stars · 13 stripes",
+      "description": "48 stars · 13 stripes. Six straight rows of eight stars, following the 1912 standardized arrangement.",
+      "effectiveFrom": "1912-07-04",
+      "throughYear": 1958,
+      "representativeArrangement": false,
+      "rowCounts": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "fromYear": 1959,
+      "stars": 49,
+      "stripes": 13,
+      "asset": "flags/us-49.svg",
+      "label": "49 stars · 13 stripes",
+      "description": "49 stars · 13 stripes. Seven staggered rows of seven stars, following the 1959 design. In force July 4, 1959–July 3, 1960; Hawaii’s star followed in 1960.",
+      "effectiveFrom": "1959-07-04",
+      "throughYear": 1959,
+      "representativeArrangement": false,
+      "rowCounts": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "fromYear": 1960,
+      "stars": 50,
+      "stripes": 13,
+      "asset": "flags/us-50.svg",
+      "label": "50 stars · 13 stripes",
+      "description": "50 stars · 13 stripes. Nine staggered rows alternating six and five stars, following the 1960 design.",
+      "effectiveFrom": "1960-07-04",
+      "throughYear": null,
+      "representativeArrangement": false,
+      "rowCounts": [
+        6,
+        5,
+        6,
+        5,
+        6,
+        5,
+        6,
+        5,
+        6
+      ]
+    }
+  ]
+}

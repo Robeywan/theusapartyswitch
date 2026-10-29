@@ -1,0 +1,18 @@
+[
+  {
+    "file": "eagle.jpg",
+    "title": "The Iconic Bald Eagle",
+    "creator": "Matt Poole / U.S. Fish and Wildlife Service",
+    "sourceUrl": "https://www.fws.gov/media/bald-eagle-5",
+    "license": "Public domain",
+    "note": "FWS media page explicitly lists Media Usage Rights/License: Public Domain. Original photograph at Great Bay National Wildlife Refuge; 1200×1206 JPEG, 112871 bytes. Downloaded unchanged. Eagle faces right against a pale sky; suitable for a restrained hero background. Direct image: https://www.fws.gov/sites/default/files/2021-07/BaldEagle-GreatBayRefuge-NH-MattPooleUSFWS.jpg"
+  },
+  {
+    "file": "flag.jpg",
+    "title": "Waving Flag American",
+    "creator": "Scrumshus",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waving_Flag_American.jpg",
+    "license": "Public domain dedication by creator (PD-self)",
+    "note": "Commons licensing section states the copyright holder releases this photograph into the public domain worldwide, with an unrestricted-use fallback. Photograph of a waving U.S. flag atop the United States Capitol, uploaded June 2, 2007. 1280×960 JPEG, 136620 bytes; downloaded unchanged from the Commons 1280px derivative. Direct image: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Waving_Flag_American.jpg/1280px-Waving_Flag_American.jpg"
+  }
+]
