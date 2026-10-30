@@ -118,5 +118,9 @@ document.addEventListener('click',ev=>{const anchor=ev.target.closest('a[href^="
 document.addEventListener('change',ev=>{if(ev.target.id==='state-select'){if(ev.target.value)selectState(ev.target.value)}});
 $('.brand').onclick=ev=>{ev.preventDefault();showView('atlas')};
 window.addEventListener('hashchange',()=>{let h=location.hash;if(h.startsWith('#guide-'))return;let p=new URLSearchParams(h.slice(1));if(p.has('y')){model.year=clamp(Number(p.get('y'))||1964);model.state=stateMap.has(p.get('s'))?p.get('s'):null;model.mode=p.get('mode')==='changes'?'changes':'election';model.baseline=Number(p.get('b'))||1960;model.panel=model.state?'state':'story';setPanel(model.panel);render()}});
+window.ATLAS_NAV=Object.freeze({
+ jumpToYear(year){if(!Number.isFinite(Number(year)))return;stop();model.state=null;model.panel='story';setPanel('story');setYear(year);showView('atlas');$('.timeline-panel').scrollIntoView({behavior:'instant',block:'start'})},
+ searchSources(query){$('#source-search').value=String(query||'').slice(0,600);$('#source-kind').value='all';showView('library')}
+});
 render();showView(model.view,false);
 })();

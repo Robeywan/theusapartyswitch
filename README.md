@@ -50,3 +50,12 @@ The visual design uses a navy masthead, crimson and gold details, a historical f
 ## Custom domain
 
 The root `CNAME` file specifies `theusapartyswitch.com` as the GitHub Pages custom domain. The root `.nojekyll` file disables Jekyll processing so GitHub Pages serves this static website directly. Keep both files in the published branch’s root. Repository publication, GitHub Pages settings, and domain DNS configuration are separate setup steps.
+
+## Ask the atlas
+
+A patriotic “Have a question?” button and navigation tab open a local research companion. `questions-data.js` contains 28 prepared historical explanations with citations to the existing source register. `questions-engine.js` matches freeform questions conservatively and retrieves related source records and atlas passages when it cannot identify one clear answer. `questions.js` renders the accessible dialog, citations, related questions, and timeline links; `questions.css` styles it.
+
+This feature does not call an AI service or search the live web. It needs no API key, account, or server. Questions and recent-question history stay in memory in the current tab; no question is written to storage, a URL, or a network request. Linked original sources open separately. The panel labels its prepared-answer and related-evidence modes so that a lexical match is not presented as a newly researched answer.
+
+To add a question, supply a unique ID, canonical question, aliases, keywords, cited paragraphs, valid `sourceIds`, a timeline year, and optional related answer IDs. Check claims against the cited materials before publishing.
+
