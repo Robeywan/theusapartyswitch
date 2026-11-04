@@ -12,16 +12,16 @@ This repository root contains the complete static website. For GitHub Pages, pub
 
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
-- 30 narrative checkpoints and 50 midterm entries
-- 272 manuscript and supplementary sources
+- 32 narrative checkpoints and 51 midterm entries
+- 324 manuscript, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–October 29, 2026. Between presidential elections, the map retains the latest completed election. No 2026 election results are included.
+The timeline covers 1789–2026, with a dated election-reporting supplement reviewed November 4, 2026. Moving to 2026 opens the U.S. Senate layer: 35 contests, including two special elections, with 33 AP projections and Alaska/Mississippi still uncalled in the cited noon Eastern snapshot. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
 
 ## Map methodology
 
-Map colors identify leading party/faction allocations of counted presidential electoral votes, rather than popular-vote winners. Before 1804 the color follows the leading candidate affiliation, with nonpartisan Washington used in 1789 and 1792; all original undifferentiated elector choices are retained in state details. Split votes are hatched. Current state boundaries provide a geographic reference throughout; they do not reconstruct historical territories.
+In the presidential layer, map colors identify leading party/faction allocations of counted electoral votes, rather than popular-vote winners. Before 1804 the color follows the leading candidate affiliation, with nonpartisan Washington used in 1789 and 1792; all original undifferentiated elector choices are retained in state details. Split votes are hatched. Current state boundaries provide a geographic reference throughout; they do not reconstruct historical territories.
 
 Official electoral tables: https://www.archives.gov/electoral-college
 
@@ -53,9 +53,14 @@ The root `CNAME` file specifies `theusapartyswitch.com` as the GitHub Pages cust
 
 ## Ask the atlas
 
-A patriotic “Have a question?” button and navigation tab open a local research companion. `questions-data.js` contains 28 prepared historical explanations with citations to the existing source register. `questions-engine.js` matches freeform questions conservatively and retrieves related source records and atlas passages when it cannot identify one clear answer. `questions.js` renders the accessible dialog, citations, related questions, and timeline links; `questions.css` styles it.
+A patriotic “Have a question?” button and navigation tab open a local research companion. `questions-data.js` contains 28 starting historical explanations; `updates-questions.js` adds the 2026 supplement and state-specific Senate answers with citations to the expanded source register. `questions-engine.js` matches freeform questions conservatively and retrieves related source records and atlas passages when it cannot identify one clear answer. `questions.js` renders the accessible dialog, citations, related questions, and timeline links; `questions.css` styles it.
 
 This feature does not call an AI service or search the live web. It needs no API key, account, or server. Questions and recent-question history stay in memory in the current tab; no question is written to storage, a URL, or a network request. Linked original sources open separately. The panel labels its prepared-answer and related-evidence modes so that a lexical match is not presented as a newly researched answer.
 
 To add a question, supply a unique ID, canonical question, aliases, keywords, cited paragraphs, valid `sourceIds`, a timeline year, and optional related answer IDs. Check claims against the cited materials before publishing.
 
+
+
+## November 4, 2026 supplement
+
+`updates-data.js` holds the separately typed Senate snapshot and national event metadata. `updates.js` renders its map, statuses, source links, and office-specific CSV; `updates.css` styles the update. There was no presidential election in 2026, and the 60 presidential allocation tables remain unchanged. The newly added 2025 and 2026 narrative checkpoints explain different offices, incoming terms, preliminary calls, and the evidence needed to distinguish a wave from durable realignment. The same static payload is published to GitHub Pages and the original Sites host.

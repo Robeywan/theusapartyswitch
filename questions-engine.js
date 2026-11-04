@@ -157,13 +157,13 @@
     }
     function unsupported(query) {
       const text=plain(query), dates=years(query);
-      if(dates.some(y=>y>2026))return 'This archive ends on October 29, 2026, and its presidential election results end in 2024. It cannot answer questions about later elections or predict their results.';
-      if(/\b2026\b/.test(text)&&/\b(?:results?|winner|won|winning|electoral votes?|prediction|predict)\b/.test(text))return 'The November 2026 midterm election had not occurred at the archive cutoff of October 29, 2026. No 2026 election results or predictions are included.';
-      if((/\b(?:current|today|now|present)\b/.test(text)&&/\bpresident\b/.test(text)&&!dates.some(y=>y<=2024)) || /^\s*who\s+is\s+(?:the\s+)?(?:us\s+|u\.s\.\s+|american\s+)?president\s*[?.!]*\s*$/.test(text))return 'This is a historical archive, not a live officeholder service. Its research cutoff is October 29, 2026, and its presidential election results end in 2024. Check a current official government source for the president serving today.';
+      if(dates.some(y=>y>2026))return 'This archive ends on November 4, 2026, and its presidential election results end in 2024. It cannot answer questions about later elections or predict their results.';
+      if(/\b2026\b/.test(text)&&/\b(?:predict|prediction|forecast)\b/.test(text))return 'The archive records dated election reporting and projections from named news organizations; it does not make election predictions.';
+      if((/\b(?:current|today|now|present)\b/.test(text)&&/\bpresident\b/.test(text)&&!dates.some(y=>y<=2024)) || /^\s*who\s+is\s+(?:the\s+)?(?:us\s+|u\.s\.\s+|american\s+)?president\s*[?.!]*\s*$/.test(text))return 'This is a historical archive, not a live officeholder service. Its research cutoff is November 4, 2026, and its presidential election results end in 2024. Check a current official government source for the president serving today.';
       if(/\b(?:weather|forecast|temperature|javascript|python|typescript|programming|debug|npm|sql|html|css|recipe|recipes|horoscope)\b/.test(text))return 'This local question guide covers U.S. political parties, elections, and realignment. It cannot provide weather, programming help, or other unrelated services.';
       if(/\b(?:passwords?|credentials?|api\s*keys?|system\s*prompts?|hidden\s*instructions?|access\s*tokens?)\b/.test(text)||/\b(?:reveal|print|show|give)\b.{0,35}\bsecrets?\b/.test(text))return 'The question guide only retrieves the public historical material included in this atlas. It cannot reveal credentials, private data, or internal instructions.';
       if(/\b(?:fabricate|invent|fake|make\s+up)\b.{0,45}\b(?:citation|citations|source|sources|reference|references)\b/.test(text))return 'The atlas does not fabricate citations or sources. Ask for evidence on a historical topic to retrieve the existing source register and archive excerpts.';
-      if(dates.length && dates.every(y=>y<1789))return 'The interactive election archive begins in 1789. Try a question about party formation or an election between 1789 and 2024; the historical reading extends to October 29, 2026.';
+      if(dates.length && dates.every(y=>y<1789))return 'The interactive election archive begins in 1789. Try a question about party formation or an election between 1789 and 2024; the historical reading extends to November 4, 2026.';
       return null;
     }
     function negated(query) { return /\b(?:not|never|neither|nothing|nobody|no\s+(?:party|parties|republicans?|democrats?)|isn't|wasn't|weren't|didn't|doesn't|don't|cannot|can't)\b/.test(plain(query)); }
@@ -194,7 +194,7 @@
       const evidence=fallback(query);
       const candidates=ranked.filter(x=>x.all.raw>=.4||x.best.exact).slice(0,5).map(x=>x.answer);
       const base={query,candidates,evidence,sources:resolveSources(evidence.flatMap(e=>e.sourceIds))};
-      if(!top)return {...base,kind:evidence.length?'results':'unsupported',message:evidence.length?'These archive excerpts and source entries may help. No curated answer closely matches this wording.':'No close match was found in this archive. Try a specific election year, person, issue, or source key; the guide covers 1789 through October 29, 2026.'};
+      if(!top)return {...base,kind:evidence.length?'results':'unsupported',message:evidence.length?'These archive excerpts and source entries may help. No curated answer closely matches this wording.':'No close match was found in this archive. Try a specific election year, person, issue, or source key; the guide covers 1789 through November 4, 2026.'};
       const negative=negated(query),compound=multipleTopics(query,ranked);
       const target=direction(query),expected=direction(top.answer.question);
       const conflict=Boolean(target&&expected&&target!==expected);
