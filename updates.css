@@ -2,5 +2,6 @@
 @media(max-width:800px){.latest-update{padding:16px 18px;gap:15px;align-items:flex-start}.latest-update p{font-size:11px}.latest-update button{font-size:10px;padding:9px 11px}.map-top{flex-wrap:wrap}.segmented [data-mapmode=midterms]{white-space:nowrap}.latest-update button span{margin-left:6px}}
 @media(max-width:480px){.latest-update{display:block}.latest-update button{margin-top:12px}.midterm-control b{font-size:16px}.segmented{width:100%}.segmented button{flex:1}.midterm-table{font-size:10px}.midterm-table td,.midterm-table th{padding:8px}}
 .quick-stops{scrollbar-width:thin;scrollbar-color:#c6ad77 #ffffff14}
+@media(min-width:471px) and (max-width:800px){.timeline-heading{grid-template-columns:95px minmax(0,1fr) 88px;gap:16px}.timeline-panel .year-block{padding-right:10px}.timeline-panel .year-block strong{font-size:43px}}
 @media(max-width:470px){.timeline-heading{grid-template-columns:70px minmax(0,1fr) 74px;gap:10px}.timeline-panel .year-block{padding-right:8px}.timeline-panel .year-block strong{font-size:38px}.period-heading h2{font-size:19px;line-height:1.15}}
 @media print{.latest-update button{display:none}.latest-update{color:#111;background:white;box-shadow:none}.latest-update .eyebrow{color:#444}.midterm-control>div{background:white}.midterm-control b{color:#111}}
