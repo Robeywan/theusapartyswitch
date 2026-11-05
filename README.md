@@ -13,11 +13,11 @@ This repository root contains the complete static website. For GitHub Pages, pub
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 324 manuscript, institutional, and election-reporting source records
+- 335 manuscript, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026, with a dated election-reporting supplement reviewed November 4, 2026. Moving to 2026 opens the U.S. Senate layer: 35 contests, including two special elections, with 33 AP projections and Alaska/Mississippi still uncalled in the cited noon Eastern snapshot. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
+The timeline covers 1789–2026, with election reporting last reviewed November 5, 2026, at 14:26 UTC. Moving to 2026 opens the Senate layer under **Changes**: 35 contests, including two special elections, with 33 earlier AP calls carried forward and Alaska/Mississippi still uncalled in a November 5 status report. Original call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
 
 ## Map methodology
 
@@ -61,6 +61,10 @@ To add a question, supply a unique ID, canonical question, aliases, keywords, ci
 
 
 
-## November 4, 2026 supplement
+## November 4 supplement and November 5, 2026 refresh
 
-`updates-data.js` holds the separately typed Senate snapshot and national event metadata. `updates.js` renders its map, statuses, source links, and office-specific CSV; `updates.css` styles the update. There was no presidential election in 2026, and the 60 presidential allocation tables remain unchanged. The newly added 2025 and 2026 narrative checkpoints explain different offices, incoming terms, preliminary calls, and the evidence needed to distinguish a wave from durable realignment. The same static payload is published to GitHub Pages and the original Sites host.
+`updates-data.js` holds the separately typed Senate snapshot and national event metadata. `updates.js` renders its map, statuses, source links, and office-specific CSV; `updates.css` styles the update. There was no presidential election in 2026, and the 60 presidential allocation tables remain unchanged. The 2025 and 2026 narrative checkpoints explain different offices, incoming terms, preliminary calls, and the evidence needed to distinguish a wave from durable realignment. The same static payload is prepared for GitHub Pages and the original Sites host.
+
+The November 5 refresh adds 11 source records, expanded state-government results, selected ballot measures, an official preliminary Maryland Question 3 count, and two prepared Ask answers. It preserves original publication dates on reports reviewed again today. Governor totals cover all 50 offices; Senate map counts cover only the 35 contested seats. No final national House or whole-Senate seat tally is asserted. The source library and research notes identify the limits of the reporting.
+
+The map retains two controls, **Presidential** and **Changes**, with the Senate snapshot integrated into the 2026 checkpoint. `map-panel.css` supplies the red, white, and blue panel treatment while preserving party and unresolved-race colors.

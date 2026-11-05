@@ -1,4 +1,4 @@
-/* November 4, 2026 addition to the local, source-backed question register.
+/* November 5, 2026 refresh to the local, source-backed question register.
    Load after questions-data.js and updates-data.js, before questions.js.
    No requests, browser storage, or generated historical claims are used here. */
 (function (root) {
@@ -6,6 +6,8 @@
   const answers = root.ATLAS_QUESTIONS;
   const senate = root.ATLAS_UPDATES && root.ATLAS_UPDATES.senate;
   if (!Array.isArray(answers) || !senate || !Array.isArray(senate.races)) return;
+  const snapshotDate = root.ATLAS_UPDATES.research.snapshot.asOfDate;
+  const snapshotLabel = new Date(snapshotDate + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   const unique = values => [...new Set(values.filter(Boolean))];
   const ids = value => Array.isArray(value) ? value.filter(v => typeof v === 'string') : [];
   const cite = values => '[' + unique(values).join('; ') + ']';
@@ -22,7 +24,7 @@
   if (election2024) {
     election2024.aliases = (election2024.aliases || []).filter(q => !/\b2026\b/.test(q));
     election2024.keywords = (election2024.keywords || []).filter(q => !/\b2026\b/.test(q));
-    election2024.paragraphs[1] = 'Pew finds that changes in who turned out mattered more than individual switching for much of the 2020–2024 movement. Validated-voter studies and election-night exit polls are different measurement series and should not be spliced into one precise trend. Pew’s 2026 pre-election preference survey remains survey evidence, not the subsequent vote count. The atlas’s November 4 update covers 2026 midterm reporting separately from the 2024 presidential result. [V02; V03; G2024; V06; N26_METHOD]';
+    election2024.paragraphs[1] = 'Pew finds that changes in who turned out mattered more than individual switching for much of the 2020–2024 movement. Validated-voter studies and election-night exit polls are different measurement series and should not be spliced into one precise trend. Pew’s 2026 pre-election preference survey remains survey evidence, not the subsequent vote count. The atlas’s November 5 update covers 2026 midterm reporting separately from the 2024 presidential result. [V02; V03; G2024; V06; N26_METHOD]';
     election2024.related = unique([...(election2024.related || []), 'midterms-2026']);
     addSources(election2024, ['N26_METHOD']);
   }
@@ -48,10 +50,10 @@
     aliases: ['Who won the 2026 midterms?', 'Does the atlas include 2026 midterm results?', 'Who won Congress in 2026?', 'Who won the House and Senate in 2026?', 'Who won the Senate in 2026?', 'Who won the 2026 Senate?', 'Who won the 2026 House?', 'What are the 2026 House results?', 'What are the 2026 Senate results?', 'What does the 2026 Senate map show?', 'What happened in the November 2026 election?'],
     keywords: [],
     paragraphs: [
-      'AP called Democrats to win the incoming House and Senate after the November 3, 2026 midterms. Those congressional terms begin January 3, 2027; the election does not immediately replace the Congress serving on November 4. This is dated reporting, not a complete certified seat tally. [N26_CONTROL; N26_TERMS]',
-      'The separate Senate map records 35 contests: 33 regular elections plus special elections in Florida and Ohio. It includes 33 AP-called winners; Alaska and Mississippi remain uncalled in AP’s noon Eastern November 4 snapshot. This layer shows Senate contest outcomes, not presidential electoral votes or the party composition of all 100 Senate seats. [N26_SEN_SCOPE; N26_SEN_FL_CONTEXT; N26_SEN_OH_CONTEXT; N26_UNCALLED; N26_METHOD]'
+      'AP called Democrats to win the incoming House and Senate after the November 3, 2026 midterms. Those congressional terms begin January 3, 2027; the election does not immediately replace the Congress currently serving. This is dated reporting, not a complete certified seat tally. [N26_CONTROL; N26_TERMS]',
+      'The separate Senate map records 35 contests: 33 regular elections plus special elections in Florida and Ohio. It includes 33 AP-called winners; Alaska and Mississippi remain uncalled in reporting reviewed November 5. This layer shows Senate contest outcomes, not presidential electoral votes or the party composition of all 100 Senate seats. [N26_SEN_SCOPE; N26_SEN_FL_CONTEXT; N26_SEN_OH_CONTEXT; N26_NOV5_SENATE_STATUS; N26_METHOD]'
     ],
-    sourceIds: ['N26_CONTROL', 'N26_TERMS', 'N26_SEN_SCOPE', 'N26_SEN_FL_CONTEXT', 'N26_SEN_OH_CONTEXT', 'N26_UNCALLED', 'N26_METHOD'],
+    sourceIds: ['N26_CONTROL', 'N26_TERMS', 'N26_SEN_SCOPE', 'N26_SEN_FL_CONTEXT', 'N26_SEN_OH_CONTEXT', 'N26_NOV5_SENATE_STATUS', 'N26_METHOD'],
     year: 2026, mapMode: 'midterms',
     related: ['senate-2026-status', 'realignment-2026', 'president-2026']
   });
@@ -61,10 +63,10 @@
     aliases: ['Which 2026 Senate races are uncalled?', 'Are all 2026 Senate races called?', 'What does uncalled mean on the 2026 Senate map?', 'Are the 2026 Senate results certified?', 'How current is the 2026 Senate map?', 'Why are some states gray on the 2026 Senate map?', 'What is the date of the 2026 Senate snapshot?', 'Does the 2026 Senate map show every Senate seat?'],
     keywords: [],
     paragraphs: [
-      'The atlas preserves a November 4, 2026 reporting snapshot. AP explicitly left Alaska and Mississippi Senate contests uncalled as of noon Eastern that day. An uncalled race still has no recorded winner here; a candidate’s claim or a vote lead is not substituted for a call. [N26_UNCALLED]',
+      'The latest atlas snapshot was reviewed November 5, 2026. That morning’s reporting still listed Alaska and Mississippi Senate contests as uncalled. An uncalled race still has no recorded winner here; a candidate’s claim or a vote lead is not substituted for a call. [N26_NOV5_SENATE_STATUS]',
       'An AP race call is separate from official canvassing and certification. The atlas has not established certified results for these calls and supplies no final vote totals. Gold means an uncalled contest; gray means no Senate election. The map covers contests held in 2026, rather than both senators from every state or all 100 seats. [N26_AP_COUNTING; N26_METHOD; N26_SEN_SCOPE]'
     ],
-    sourceIds: ['N26_UNCALLED', 'N26_AP_COUNTING', 'N26_METHOD', 'N26_SEN_SCOPE'],
+    sourceIds: ['N26_NOV5_SENATE_STATUS', 'N26_AP_COUNTING', 'N26_METHOD', 'N26_SEN_SCOPE'],
     year: 2026, mapMode: 'midterms',
     related: ['midterms-2026', 'senate-2026-AK', 'senate-2026-MS']
   });
@@ -95,6 +97,19 @@
     related: ['party-switch', 'midterms-2026', 'election-2024']
   });
 
+  put({
+    id: 'state-government-2026', question: 'How did state governments change in the 2026 elections?',
+    aliases: ['Which states gained Democratic trifectas in 2026?', 'What changed in state government in the 2026 midterms?', 'How did the 2026 elections change state legislatures?', 'Did the 2026 midterms change governors and state legislatures?'], keywords: [],
+    paragraphs: ["NCSL’s November 4 report, reviewed November 5, lists 28 Democratic governorships, 20 Republican governorships and two not yet called. It identifies five new Democratic trifectas: Michigan, Minnesota, Nevada, Pennsylvania and Wisconsin. A trifecta means one party controls the governor’s office and both legislative chambers. [N26_NOV5_NCSL]","Democrats won the Texas House, while Republicans retained its Senate. NCSL also reports Democratic flips in both New Hampshire chambers, alongside Republican Governor Kelly Ayotte’s reelection. These examples produce divided state government rather than Democratic trifectas. [N26_NOV5_NCSL; N26_NOV5_STATE]"],
+    sourceIds: ['N26_NOV5_NCSL','N26_NOV5_STATE'], year: 2026, mapMode: 'midterms', related: ['midterms-2026','realignment-2026','ballot-measures-2026']
+  });
+  put({
+    id: 'ballot-measures-2026', question: 'What happened with ballot measures in the 2026 elections?',
+    aliases: ['What were the 2026 ballot measure results?', 'What did the 2026 ballot measures show?', 'How did abortion and redistricting measures fare in 2026?'], keywords: [],
+    paragraphs: ["AP reports Missouri’s abortion and redistricting measures failed; Virginia and Nevada abortion-rights measures passed; Idaho’s abortion-rights initiative failed. Different measures and offices require separate interpretation. [N26_NOV5_BALLOT]","Maryland’s Question 3 results page, refreshed November 5 at 8:08:04 a.m. as displayed, reports 60.11% for and 39.89% against the redistricting amendment. The page calls the results unofficial and lists provisional ballots as not reported. The amendment concerns congressional district criteria; approval is not itself a new congressional map. [N26_NOV5_MD_Q3; N26_NOV5_MD_TEXT]"],
+    sourceIds: ['N26_NOV5_BALLOT','N26_NOV5_MD_Q3','N26_NOV5_MD_TEXT'], year: 2026, mapMode: 'midterms', related: ['state-government-2026','midterms-2026','realignment-2026']
+  });
+
   function stateAliases(state) {
     // Every variant names both the office and year. Bare state/candidate keywords
     // would make unrelated historical questions appear to have a prepared answer.
@@ -113,12 +128,12 @@
     const sourceIds = ids(race.sourceIds);
     const kind = race.electionType === 'special' ? 'special election' : 'regular election';
     if (race.status === 'unresolved') {
-      return `AP had not called the ${state} U.S. Senate ${kind} as of noon Eastern on November 4, 2026. This atlas records no winner or winning party for that unresolved contest. ${cite(sourceIds.length ? sourceIds : ['N26_UNCALLED'])}`;
+      return `Reporting reviewed ${snapshotLabel} still listed the ${state} U.S. Senate ${kind} as uncalled. This atlas records no winner or winning party for that unresolved contest. ${cite(sourceIds.length ? sourceIds : ['N26_UNCALLED'])}`;
     }
     if (race.status === 'projected' && race.candidate && race.party) {
       const displayName = race.displayName || race.candidate;
       const party = ({ D: 'Democrat', R: 'Republican', I: 'independent' })[race.party] || race.party;
-      return `AP called ${party} ${displayName} the winner of the ${state} U.S. Senate ${kind} held November 3, 2026. This is the called outcome recorded in the atlas’s November 4 snapshot. ${cite(sourceIds)}`;
+      return `AP called ${party} ${displayName} the winner of the ${state} U.S. Senate ${kind} held November 3, 2026. This is the called outcome recorded in the atlas’s ${snapshotLabel} snapshot. ${cite(sourceIds)}`;
     }
     return `The atlas does not have a source-backed winner for the ${state} 2026 U.S. Senate ${kind}. It does not infer a winner from an incumbent, a candidate’s claim, or an incomplete tally. ${cite(sourceIds.length ? sourceIds : ['N26_METHOD'])}`;
   }
@@ -158,7 +173,7 @@
       const contests = races.length ? races : (Array.isArray(record.contests) && record.contests.length ? record.contests : [record]);
       paragraphs = [
         contests.map(raceParagraph).join(' '),
-        'This is a dated November 4, 2026 snapshot. A media call is separate from official canvassing and certification; certified returns and final vote totals are not established here. The state color concerns this Senate contest, not both sitting senators, presidential electoral votes, or every resident’s views. [N26_AP_COUNTING; N26_METHOD]'
+        `This is a dated ${snapshotLabel} snapshot. A media call is separate from official canvassing and certification; certified returns and final vote totals are not established here. The state color concerns this Senate contest, not both sitting senators, presidential electoral votes, or every resident’s views. [N26_AP_COUNTING; N26_METHOD]`
       ];
       sourceIds.push(...contests.flatMap(r => ids(r.sourceIds)), 'N26_AP_COUNTING', 'N26_METHOD');
     }
