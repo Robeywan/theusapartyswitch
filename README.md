@@ -13,11 +13,11 @@ This repository root contains the complete static website. For GitHub Pages, pub
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 335 manuscript, institutional, and election-reporting source records
+- 349 manuscript, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026, with election reporting last reviewed November 5, 2026, at 14:26 UTC. Moving to 2026 opens the Senate layer under **Changes**: 35 contests, including two special elections, with 33 earlier AP calls carried forward and Alaska/Mississippi still uncalled in a November 5 status report. Original call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
+The timeline covers 1789–2026, with election reporting last reviewed November 7, 2026, at 21:43 UTC. Moving to 2026 opens the Senate layer under **Changes**: 35 contests, including two special elections, with 33 earlier AP calls carried forward and Alaska/Mississippi still uncalled in newly reviewed reporting. Original call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
 
 ## Map methodology
 
@@ -68,3 +68,9 @@ To add a question, supply a unique ID, canonical question, aliases, keywords, ci
 The November 5 refresh adds 11 source records, expanded state-government results, selected ballot measures, an official preliminary Maryland Question 3 count, and two prepared Ask answers. It preserves original publication dates on reports reviewed again today. Governor totals cover all 50 offices; Senate map counts cover only the 35 contested seats. No final national House or whole-Senate seat tally is asserted. The source library and research notes identify the limits of the reporting.
 
 The map retains two controls, **Presidential** and **Changes**, with the Senate snapshot integrated into the 2026 checkpoint. `map-panel.css` supplies the red, white, and blue panel treatment while preserving party and unresolved-race colors.
+
+## November 7, 2026 refresh
+
+Fourteen source records add newer reporting, official count-process references and preliminary ballot returns. State coverage adds Arizona's two legislative chamber flips and Georgia's House flip; NCSL now identifies six new Democratic trifectas. Maryland Question 3 uses the official November 7 displayed refresh, still unofficial with provisional ballots not reported. A qualitative youth-voter report is identified as survey evidence, without estimating individual switching.
+
+The 86 prepared answers include a new explanation of continuing vote counts and California's scheduled canvass deadlines. `updates-data.js` now carries reviewed editorial answer patches in `research.preparedAnswers`; `updates-questions.js` applies those patches after generating state answers, retaining established question aliases. Dates, citations, state details and CSV use the same frozen snapshot. No final national House or whole-Senate count is supplied.

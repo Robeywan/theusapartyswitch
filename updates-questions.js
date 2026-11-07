@@ -1,4 +1,4 @@
-/* November 5, 2026 refresh to the local, source-backed question register.
+/* Source-backed additions and dated refreshes to the local question register.
    Load after questions-data.js and updates-data.js, before questions.js.
    No requests, browser storage, or generated historical claims are used here. */
 (function (root) {
@@ -24,7 +24,7 @@
   if (election2024) {
     election2024.aliases = (election2024.aliases || []).filter(q => !/\b2026\b/.test(q));
     election2024.keywords = (election2024.keywords || []).filter(q => !/\b2026\b/.test(q));
-    election2024.paragraphs[1] = 'Pew finds that changes in who turned out mattered more than individual switching for much of the 2020–2024 movement. Validated-voter studies and election-night exit polls are different measurement series and should not be spliced into one precise trend. Pew’s 2026 pre-election preference survey remains survey evidence, not the subsequent vote count. The atlas’s November 5 update covers 2026 midterm reporting separately from the 2024 presidential result. [V02; V03; G2024; V06; N26_METHOD]';
+    election2024.paragraphs[1] = 'Pew finds that changes in who turned out mattered more than individual switching for much of the 2020–2024 movement. Validated-voter studies and election-night exit polls are different measurement series and should not be spliced into one precise trend. Pew’s 2026 pre-election preference survey remains survey evidence, not the subsequent vote count. The atlas’s latest dated update covers 2026 midterm reporting separately from the 2024 presidential result. [V02; V03; G2024; V06; N26_METHOD]';
     election2024.related = unique([...(election2024.related || []), 'midterms-2026']);
     addSources(election2024, ['N26_METHOD']);
   }
@@ -190,4 +190,10 @@
       related: ['midterms-2026', 'senate-2026-status', 'realignment-2026']
     });
   });
+  // Reviewed editorial answers travel with the dated snapshot, so they share
+  // its evidence and cutoff while retaining the established matching aliases.
+  for (const refresh of root.ATLAS_UPDATES.research.preparedAnswers || []) {
+    const previous = byId(refresh.id);
+    put({ ...(previous || {}), ...refresh });
+  }
 })(typeof window !== 'undefined' ? window : globalThis);

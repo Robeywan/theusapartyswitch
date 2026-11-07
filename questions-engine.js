@@ -71,7 +71,7 @@
     config=config || {};
     const archive=root.ATLAS_DATA || {};
     const content=archive.content || {};
-    const asOfDate=config.asOfDate || content.update?.asOfDate || '2026-11-05';
+    const asOfDate=config.asOfDate || content.update?.asOfDate || '2026-11-07';
     const cutoffLabel=new Date(asOfDate+'T12:00:00Z').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'});
     const answers=list(config.answers).filter(a=>a && typeof a.question==='string');
     const sources=list(config.sources || content.sources).filter(s=>s && s.id);
