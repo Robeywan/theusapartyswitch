@@ -9,7 +9,7 @@ const sourceMap=new Map(data.content.sources.map(s=>[s.id,s])), answerMap=new Ma
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const recent=[];let previousFocus=null;
 const stars=document.createElement('span');stars.className='ask-bg-stars';stars.setAttribute('aria-hidden','true');stars.textContent='★ ★ ★ ★ ★ ★ ★ ★ ★';$('.ask-header').prepend(stars);
-const nav=document.createElement('button');nav.type='button';nav.className='nav-btn ask-nav-button';nav.textContent='Ask the atlas';nav.setAttribute('aria-haspopup','dialog');nav.setAttribute('aria-controls','ask-dialog');nav.setAttribute('aria-expanded','false');$('.site-header nav').append(nav);
+const nav=document.createElement('button');nav.type='button';nav.className='nav-btn ask-nav-button';nav.textContent='ASK THE ATLAS';nav.setAttribute('aria-haspopup','dialog');nav.setAttribute('aria-controls','ask-dialog');nav.setAttribute('aria-expanded','false');$('.site-header nav').append(nav);
 function open(){if(dialog.open)return;previousFocus=document.activeElement;dialog.showModal();document.body.classList.add('ask-no-scroll');launcher.setAttribute('aria-expanded','true');nav.setAttribute('aria-expanded','true');$('#ask-scroll').scrollTop=0;input.focus({preventScroll:true})}
 function close(){dialog.close()}
 dialog.addEventListener('close',()=>{document.body.classList.remove('ask-no-scroll');launcher.setAttribute('aria-expanded','false');nav.setAttribute('aria-expanded','false');previousFocus?.focus({preventScroll:true})});
