@@ -2,7 +2,7 @@
 
 Canonical site: [americanpartyhistory.com](https://americanpartyhistory.com/).
 
-An interactive American party realignment atlas adapted from a historical research manuscript dated October 29, 2026.
+An expanding atlas of American political party history, with party change and Democratic–Republican realignment at its center. The original October 29, 2026 study is joined by the November 11, 2026 national, state and territorial party-history companion.
 
 ## Run or publish
 
@@ -10,14 +10,16 @@ This repository root contains the complete static website. For GitHub Pages, pub
 
 ## Contents
 
+- 117 research profiles across seven themes, with full cited histories and related profiles
+- National, state, regional and territorial organizations, including factions and electoral projects
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 349 manuscript, institutional, and election-reporting source records
+- 707 manuscript, companion, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026, with election reporting last reviewed November 7, 2026, at 21:43 UTC. Moving to 2026 opens the Senate layer under **Changes**: 35 contests, including two special elections, with 33 earlier AP calls carried forward and Alaska/Mississippi still uncalled in newly reviewed reporting. Original call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
+The timeline covers 1789–2026. The election supplement was reviewed November 11 locally (November 12 at 06:03 UTC). The Senate layer under **Changes** records 35 contests: 34 calls, including the new AP call for Scott Colom in Mississippi, and Alaska still unresolved. Earlier call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
 
 ## Map methodology
 
@@ -36,6 +38,8 @@ Map geometry is Census-derived us-atlas 3.0.1 under ISC; see `map-license.txt`. 
 ## Editing
 
 `app.js` contains interface behavior; `style.css` contains layout and styling; `data.js` defines `window.ATLAS_DATA`. The data object separates content, elections, states, and geometry. No compilation is required after editing. Preserve the electoral metric and historical exceptions when revising.
+
+`companion-data.js` defines `window.ATLAS_COMPANION`; `parties.js` and `parties.css` provide the directory and full-profile reading view. Companion source IDs use an `APH_` prefix and are merged into the source register in `data.js` before the app and question panel initialize. Directory links preserve profile/filter routes and browser Back navigation. Period filters index years and decades stated in profile date labels; they do not assert uninterrupted existence. A profile can cover several organizations without treating them as one continuing party.
 
 ## Historical flags and photographs
 
@@ -57,6 +61,8 @@ A patriotic “Have a question?” button and navigation tab open a local resear
 
 This feature does not call an AI service or search the live web. It needs no API key, account, or server. Questions and recent-question history stay in memory in the current tab; no question is written to storage, a URL, or a network request. Linked original sources open separately. The panel labels its prepared-answer and related-evidence modes so that a lexical match is not presented as a newly researched answer.
 
+The question panel also retrieves named companion profiles. It compares each title or alias separately and uses dated-name checks to reduce confusion among different Progressive, American and other repeated labels. These are labeled profile suggestions, rather than newly generated answers. Opening a profile does not put the question text into its URL.
+
 To add a question, supply a unique ID, canonical question, aliases, keywords, cited paragraphs, valid `sourceIds`, a timeline year, and optional related answer IDs. Check claims against the cited materials before publishing.
 
 
@@ -74,3 +80,11 @@ The map retains two controls, **Presidential** and **Changes**, with the Senate 
 Fourteen source records add newer reporting, official count-process references and preliminary ballot returns. State coverage adds Arizona's two legislative chamber flips and Georgia's House flip; NCSL now identifies six new Democratic trifectas. Maryland Question 3 uses the official November 7 displayed refresh, still unofficial with provisional ballots not reported. A qualitative youth-voter report is identified as survey evidence, without estimating individual switching.
 
 The 86 prepared answers include a new explanation of continuing vote counts and California's scheduled canvass deadlines. `updates-data.js` now carries reviewed editorial answer patches in `research.preparedAnswers`; `updates-questions.js` applies those patches after generating state answers, retaining established question aliases. Dates, citations, state details and CSV use the same frozen snapshot. No final national House or whole-Senate count is supplied.
+
+## November 11 companion expansion
+
+The new supplied companion adds 117 profiles, 348 source records, six guide topics and three explanations of repeated party names. The full profile text and citations are preserved. The directory distinguishes party organizations from coalitions, advocacy groups and temporary electoral efforts; Hawaiian and territorial histories retain their different political contexts. Inclusion does not assign presidential electoral votes to a territory or reconstruct a historical membership map.
+
+The 348 companion records retain original citation and access descriptions. Targeted checks covered selected contemporary recognition and organizational-identity claims; every claim and external link was not independently re-researched. The register counts source records, including separately dated reviews of some shared URLs. This is substantial, expanding coverage rather than a complete census of every American local party or ticket.
+
+The separately reviewed election update changes Mississippi's Senate status to an AP call for Scott Colom. Alaska Senate and Alaska/Kansas governor contests remain uncalled in their cited reports. There are no newly invented presidential results, certified final Senate tallies or final House counts. All 60 presidential election objects are unchanged.
