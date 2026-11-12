@@ -11,3 +11,11 @@
 .map-panel .compare-controls,.map-panel .compare-controls span{color:#f0f4fa}.map-panel .compare-controls select{color:#193b61;background:#fffdf9;border:1px solid #c7d5e5;border-radius:3px}
 @media(max-width:560px){.map-panel .map-top{padding-bottom:10px}.map-panel .map-canvas{margin:10px 7px 0}.map-panel .map-note{margin:0 12px 14px;padding:12px}.map-panel .legend-item{font-size:9px;padding:4px 6px}.map-panel .map-legend{gap:6px 7px}.map-panel .map-footer{line-height:1.7}}
 @media print{.map-panel,.map-panel .map-top,.map-panel .map-canvas,.map-panel .map-note,.map-panel .map-footer,.map-panel .legend-item{background:white!important;box-shadow:none;color:#111;border-color:#bbb}.map-panel .map-context,.map-panel .map-context b,.map-panel .map-top h2,.map-panel .map-top .eyebrow{color:#111;text-shadow:none}.map-panel .map-context{padding-bottom:8px}.map-panel .map-note{border-left:1px solid #bbb}.map-panel .map-footer .text-button{color:#111}}
+
+/* Keep timeline playback beside the legend at the lower-right of the map. */
+.map-legend-row{display:flex;align-items:center;flex-wrap:wrap;gap:0 12px;padding-right:18px}
+.map-legend-row .map-legend{flex:1 1 300px;min-width:0;padding-right:0}
+.map-playback{display:flex;align-items:center;gap:7px;flex-shrink:0;margin-left:auto;padding:12px 0}
+.map-playback .icon-button{flex-shrink:0}
+@media(max-width:560px){.map-legend-row{padding-right:12px}.map-legend-row .map-legend{flex-basis:100%;padding-left:12px;padding-bottom:8px}.map-playback{padding:0 0 14px}}
+@media print{.map-playback{display:none!important}}
