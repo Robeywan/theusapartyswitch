@@ -1,6 +1,6 @@
-# The USA Party Switch
+# American Party History
 
-Canonical site: [theusapartyswitch.com](https://theusapartyswitch.com/).
+Canonical site: [americanpartyhistory.com](https://americanpartyhistory.com/).
 
 An interactive American party realignment atlas adapted from a historical research manuscript dated October 29, 2026.
 
@@ -49,7 +49,7 @@ The visual design uses a navy masthead, crimson and gold details, a historical f
 
 ## Custom domain
 
-The root `CNAME` file specifies `theusapartyswitch.com` as the GitHub Pages custom domain. The root `.nojekyll` file disables Jekyll processing so GitHub Pages serves this static website directly. Keep both files in the published branch’s root. Repository publication, GitHub Pages settings, and domain DNS configuration are separate setup steps.
+The root `CNAME` file specifies `americanpartyhistory.com` as the GitHub Pages custom domain. The root `.nojekyll` file disables Jekyll processing so GitHub Pages serves this static website directly. Keep both files in the published branch’s root. Repository publication, GitHub Pages settings, and domain DNS configuration are separate setup steps.
 
 ## Ask the atlas
 
