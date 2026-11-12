@@ -1,0 +1,54 @@
+/* Local landscape photographs change with the visible section. */
+@media screen {
+  body {
+    --landscape-image: url('assets/landscape-atlas.jpg');
+    --landscape-position: center center;
+    background-color: #26475d;
+    background-image: linear-gradient(#0d254229, #0d25423d), var(--landscape-image);
+    background-size: cover;
+    background-position: center, var(--landscape-position);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  body[data-view="parties"] { --landscape-image: url('assets/landscape-parties.jpg'); }
+  body[data-view="evolution"] { --landscape-image: url('assets/landscape-evolution.jpg'); }
+  body[data-view="library"] { --landscape-image: url('assets/landscape-library.jpg'); }
+  body[data-view="guide"] { --landscape-image: url('assets/landscape-guide.jpg'); }
+
+  /* These labels sit outside the existing opaque reading and map panels. */
+  .heritage-heading,
+  .directory-results-bar,
+  .directory-note,
+  .directory-profile-top,
+  .directory-evidence,
+  .evolution-period-intro,
+  .no-results {
+    background: #fff9edf5;
+    border: 1px solid #d1b77b;
+    border-radius: 5px;
+    padding: 16px 20px;
+    box-shadow: 0 3px 14px #0a213532;
+  }
+  .directory-results-bar p { margin-bottom: 0; }
+  .directory-guide-link { max-width: none; }
+  .evolution-period-intro { margin-bottom: 23px; padding: 24px; }
+  .evolution-period-intro .lead { margin-bottom: 0; }
+  .directory-evidence { padding: 22px; }
+  .directory-note,
+  .directory-evidence > p,
+  .directory-source p { color: #4d6074; }
+  .directory-evidence .directory-source > span { color: #87532f; }
+  .ask-dialog::backdrop {
+    background: linear-gradient(#0b23426b, #0b23429c), url('assets/landscape-ask.jpg') center / cover no-repeat;
+    backdrop-filter: none;
+  }
+  .landscape-credits { max-width: 1180px; margin: 25px 0; }
+  .landscape-credits h2 { color: #fff1cd; font-size: 26px; }
+  .landscape-credits ul { padding-left: 20px; }
+  .landscape-credits li { margin: 13px 0; line-height: 1.7; }
+}
+@media screen and (max-width: 560px) {
+  .heritage-heading { padding: 16px; }
+  .directory-results-bar { padding: 12px 15px; }
+  .directory-guide-link { padding: 15px; }
+}

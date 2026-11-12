@@ -29,5 +29,77 @@
     "license": "No known restrictions on publication; historic Detroit Publishing Company photograph",
     "description": "Authentic historic photograph of the Statue of Liberty viewed from the harbor. Library of Congress item 2016795971; reproduction LC-DIG-det-4a23254. Date range and rights statement checked in the Library record and JSON metadata. 1024×811 JPEG, compressed without cropping.",
     "rightsSourceUrl": "https://www.loc.gov/item/2016795971/?fo=json"
+  },
+  {
+    "file": "landscape-atlas.jpg",
+    "title": "Yosemite Valley",
+    "creator": "National Park Service",
+    "date": "2017-06-02",
+    "sourceUrl": "https://www.fws.gov/media/yosemite-valley",
+    "imageUrl": "https://www.fws.gov/sites/default/files/images/2025-03/50543446383_9037472dd0_o.jpg",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://www.fws.gov/media/yosemite-valley",
+    "description": "Decorative backdrop for Home / Map & timeline. Yosemite National Park, California. 1620×1620 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "atlas"
+  },
+  {
+    "file": "landscape-parties.jpg",
+    "title": "Grand Canyon",
+    "creator": "Carol Wippich / U.S. Geological Survey",
+    "date": null,
+    "sourceUrl": "https://www.usgs.gov/media/images/grand-canyon",
+    "imageUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/Grand_Canyon_026.JPG",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://www.usgs.gov/media/images/grand-canyon",
+    "description": "Decorative backdrop for Party directory. Grand Canyon, Arizona. 2000×1500 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "parties"
+  },
+  {
+    "file": "landscape-evolution.jpg",
+    "title": "Great Smoky Mountains",
+    "creator": "Cynthia L. Cunningham / U.S. Geological Survey",
+    "date": null,
+    "sourceUrl": "https://www.usgs.gov/media/images/great-smoky-mountains",
+    "imageUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/DSCN2790--Cindy_Cunningham.JPG",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://www.usgs.gov/media/images/great-smoky-mountains",
+    "description": "Decorative backdrop for Party evolution. Great Smoky Mountains National Park, Tennessee and North Carolina. 2000×1500 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "evolution"
+  },
+  {
+    "file": "landscape-library.jpg",
+    "title": "Acadia National Park — wave crashing on a rocky shoreline",
+    "creator": "NPS / Victoria Stauffenberg",
+    "date": "2018-06-06",
+    "sourceUrl": "https://npgallery.nps.gov/AssetDetail/4a9c4786-1356-44be-aa0b-b2556b27b753",
+    "imageUrl": "https://npgallery.nps.gov/GetAsset/4a9c4786-1356-44be-aa0b-b2556b27b753/original.jpg",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://npgallery.nps.gov/AssetDetail/4a9c4786-1356-44be-aa0b-b2556b27b753",
+    "description": "Decorative backdrop for Source library. Schoodic Point, Acadia National Park, Maine. 2000×1500 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "library"
+  },
+  {
+    "file": "landscape-guide.jpg",
+    "title": "Fall View of Denali, Mt. McKinley",
+    "creator": "Lisa Grandbois / U.S. Fish and Wildlife Service",
+    "date": null,
+    "sourceUrl": "https://www.fws.gov/media/fall-view-denali-mt-mckinley",
+    "imageUrl": "https://www.fws.gov/sites/default/files/images/2024-03-3/6129.jpg",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://www.fws.gov/media/fall-view-denali-mt-mckinley",
+    "description": "Decorative backdrop for Reading guide. Denali, Alaska. 1776×738 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "guide"
+  },
+  {
+    "file": "landscape-ask.jpg",
+    "title": "Badlands National Park",
+    "creator": "NPS Photo / Mackenzie Reed",
+    "date": "2017-10-03",
+    "sourceUrl": "https://npgallery.nps.gov/AssetDetail/f78c36f6-ead6-414c-b4a4-a2367f781861",
+    "imageUrl": "https://npgallery.nps.gov/GetAsset/f78c36f6-ead6-414c-b4a4-a2367f781861/proxyhires.jpg",
+    "license": "Public domain",
+    "rightsSourceUrl": "https://npgallery.nps.gov/AssetDetail/f78c36f6-ead6-414c-b4a4-a2367f781861",
+    "description": "Decorative backdrop for Ask the atlas. Badlands National Park, South Dakota. 2000×1125 JPEG; resized and compressed from the credited source. The complete composition is retained in the asset; the viewport may crop the backdrop to fit.",
+    "section": "ask"
   }
 ]
