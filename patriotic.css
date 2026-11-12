@@ -50,3 +50,20 @@ main{padding-top:1px}.eyebrow{color:#8e2940}.quiet-button{border-color:#c09a59;b
 @media(max-width:560px){.hero-flag-ribbon{flex-wrap:wrap;row-gap:8px}.hero-flag-ribbon .ribbon-label{display:block;max-width:none;flex-basis:100%;text-align:center;font-size:6px;letter-spacing:1.5px}.hero-flag-ribbon .ribbon-star{display:none}}
 
 .lens-links{align-items:stretch}.lens-links button{height:100%}
+
+/* Full-width home navigation cards. Existing print hiding remains in effect. */
+@media screen{
+  .below-map{grid-template-columns:minmax(0,1fr);gap:0;padding:25px}
+  .below-map .lens-links{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:0}
+  .below-map .lens-links button{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;gap:18px;min-width:0;min-height:178px;padding:25px 24px 29px;border:1px solid #d6b46b;border-top:4px solid #e1bd72;border-radius:5px;background:linear-gradient(135deg,#17395f,#2b6292);color:#fff8e9;box-shadow:0 6px 17px #071d3866}
+  .below-map .lens-links button:nth-child(2){background:linear-gradient(135deg,#762038,#b52b43)}
+  .below-map .lens-links button:nth-child(3){background:linear-gradient(135deg,#102b4b,#315778)}
+  .below-map .lens-links button:before{content:'★';position:absolute;right:8px;top:-25px;font-size:135px;line-height:1;color:#fff;opacity:.065;z-index:-1;pointer-events:none;transform:rotate(12deg)}
+  .below-map .lens-links button:after{content:'';position:absolute;bottom:0;left:0;right:0;height:5px;background:linear-gradient(90deg,#c4374c 0 33.33%,#fff3d9 33.33% 66.66%,#447bab 66.66%)}
+  .below-map .lens-links button:hover{filter:brightness(1.12);transform:translateY(-2px)}
+  .below-map .lens-links button:focus-visible{outline:3px solid #ffe2a0;outline-offset:4px}
+  .below-map .lens-links b{font-size:32px;line-height:1.13;color:#fff5de;margin:0}
+  .below-map .lens-links span{display:block;margin:0;font-size:14px;line-height:1.55;color:#f0e9dc}
+}
+@media screen and (max-width:900px){.below-map .lens-links{grid-template-columns:1fr}.below-map .lens-links button{min-height:139px}.below-map .lens-links b{font-size:30px}}
+@media screen and (max-width:560px){.below-map{padding:18px}.below-map .lens-links{gap:14px}.below-map .lens-links button{padding:22px 20px 25px;gap:14px;min-height:145px}.below-map .lens-links b{font-size:28px}.below-map .lens-links span{font-size:13px}}
