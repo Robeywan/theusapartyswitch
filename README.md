@@ -15,11 +15,11 @@ This repository root contains the complete static website. For GitHub Pages, pub
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 707 manuscript, companion, institutional, and election-reporting source records
+- 714 manuscript, companion, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026. The election supplement was reviewed November 11 locally (November 12 at 06:03 UTC). The Senate layer under **Changes** records 35 contests: 34 calls, including the new AP call for Scott Colom in Mississippi, and Alaska still unresolved. Earlier call publication dates are preserved. The presidential layer remains the last completed presidential election, 2024. News calls are distinct from certification; this website is not a live results feed.
+The timeline covers 1789–2026. Election reporting was reviewed November 13, 2026. New AP calls for Cindy Holscher in Kansas governor and Paul LePage in Maine District 2, CNN’s separately labeled Alaska governor projection, and newer unofficial Alaska first-choice returns are included in the 2026 timeline. The Senate layer still records 35 contests: 34 calls (21 Democratic / 13 Republican) and Alaska uncalled. Earlier call publication dates remain intact. Presidential allocations still end in 2024. Calls, projections, unofficial tabulation and certification are distinct; this is a dated archive, not a live results feed.
 
 ## Map methodology
 

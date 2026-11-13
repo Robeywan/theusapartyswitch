@@ -101,3 +101,15 @@ Election reporting was separately reviewed at 06:03 UTC November 12, which was 1
 Alaska's remaining Senate contest and the Alaska/Kansas governor contests are still uncalled in the cited reports. Future tabulation, canvass and certification dates remain planned steps. A candidate's lead, concession or transition activity has a different evidentiary status from an AP call or official certification. [Alaska reporting](https://apnews.com/article/f42a49a45a2870786f36086c7ad02824), [Kansas audit procedures](https://sos.ks.gov/media/media-faq.html).
 
 The combined register contains 707 source records. All 60 presidential election objects remain unchanged. The site remains a growing, dated research atlas; it does not claim exhaustive coverage or a live election feed.
+
+
+## November 13, 2026 election review
+
+Review timestamp: 2026-11-13T20:49:38.790Z (November 13, 2026 at 1:49 PM MST). New evidence records are N26_NOV13_KS_CALL, N26_NOV13_ME2_CALL, N26_NOV13_ME2_AUTHORITY, N26_NOV13_AK_RESULTS, N26_NOV13_AK_STATUS, N26_NOV13_AK_GOV_CNN, N26_NOV13_CONTROL. The combined register now contains 714 sources. The companion edition remains November 11.
+
+- Kansas governor: AP calls Cindy Holscher (D), November 12; no certification asserted.
+- Maine District 2: AP calls Paul LePage (R), November 12. The Secretary of State’s completed ranked-choice tabulation lists 170,890 versus 165,432 votes and explicitly remains unofficial pending statutory finalization.
+- Alaska governor: CNN’s original verified cnn.com Bluesky post projects Jonathan Kreiss-Tomkins. Its publication is November 13 at 04:33:43.918 UTC / November 12 locally. This is labeled CNN; the separate AP status is not silently converted.
+- Alaska Senate: still uncalled in November 13 original reporting. The official PDF displays November 12, 6:36:41 p.m. without a printed time zone. First-choice totals are 125,157 Peltola; 119,357 Dan Sullivan; 5,490 Heikes; 4,199 Daniel Sullivan Jr.; 807 write-in (255,010 total). They are unofficial, not a completed ranked-choice outcome or certification.
+
+All 34 existing Senate calls and their original provenance are preserved. No final House or whole-Senate tally, fresh certification, or unverified Colorado House call is asserted. AP’s original chamber-control chronology remains November 3–4; the new review does not redate it. Older ballot-measure, state-legislative and survey entries retain their named source dates. The Kansas and Maine outcomes illustrate variation by office and geography, not a measurement of individual party switching.
