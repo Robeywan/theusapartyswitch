@@ -15,11 +15,11 @@ This repository root contains the complete static website. For GitHub Pages, pub
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 714 manuscript, companion, institutional, and election-reporting source records
+- 724 manuscript, companion, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026. Election reporting was reviewed November 13, 2026. New AP calls for Cindy Holscher in Kansas governor and Paul LePage in Maine District 2, CNN’s separately labeled Alaska governor projection, and newer unofficial Alaska first-choice returns are included in the 2026 timeline. The Senate layer still records 35 contests: 34 calls (21 Democratic / 13 Republican) and Alaska uncalled. Earlier call publication dates remain intact. Presidential allocations still end in 2024. Calls, projections, unofficial tabulation and certification are distinct; this is a dated archive, not a live results feed.
+The timeline covers 1789–2026. Election reporting was reviewed November 16, 2026. The dated update adds an AP Alaska governor call, a voting-system measure result, newer unofficial Alaska first-choice returns and two House examples. The Senate layer retains 34 calls across 35 contests (21 Democratic/13 Republican), with Alaska uncalled. Earlier calls and source dates remain intact; no final national congressional tally or completed certification is asserted. Presidential allocations still end in 2024.
 
 ## Map methodology
 
@@ -88,3 +88,8 @@ The new supplied companion adds 117 profiles, 348 source records, six guide topi
 The 348 companion records retain original citation and access descriptions. Targeted checks covered selected contemporary recognition and organizational-identity claims; every claim and external link was not independently re-researched. The register counts source records, including separately dated reviews of some shared URLs. This is substantial, expanding coverage rather than a complete census of every American local party or ticket.
 
 The separately reviewed election update changes Mississippi's Senate status to an AP call for Scott Colom. Alaska Senate and Alaska/Kansas governor contests remain uncalled in their cited reports. There are no newly invented presidential results, certified final Senate tallies or final House counts. All 60 presidential election objects are unchanged.
+
+
+## November 16, 2026 election review
+
+Ten evidence records bring the source register to 724. Alaska’s AP governor call is distinct from the earlier CNN projection; its official Senate report remains unofficial and includes write-ins. California 4 is an intraparty Democratic result; Colorado 4 is a newly verified November 13 call, not a new November 16 result. The current snapshot preserves every prior Senate call and the 117-profile companion unchanged.

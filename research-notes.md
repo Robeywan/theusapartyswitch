@@ -113,3 +113,17 @@ Review timestamp: 2026-11-13T20:49:38.790Z (November 13, 2026 at 1:49 PM MST). N
 - Alaska Senate: still uncalled in November 13 original reporting. The official PDF displays November 12, 6:36:41 p.m. without a printed time zone. First-choice totals are 125,157 Peltola; 119,357 Dan Sullivan; 5,490 Heikes; 4,199 Daniel Sullivan Jr.; 807 write-in (255,010 total). They are unofficial, not a completed ranked-choice outcome or certification.
 
 All 34 existing Senate calls and their original provenance are preserved. No final House or whole-Senate tally, fresh certification, or unverified Colorado House call is asserted. AP’s original chamber-control chronology remains November 3–4; the new review does not redate it. Older ballot-measure, state-legislative and survey entries retain their named source dates. The Kansas and Maine outcomes illustrate variation by office and geography, not a measurement of individual party switching.
+
+
+## November 16, 2026 election review
+
+Review timestamp: 2026-11-16T19:08:05.981Z (November 16, 2026 at 12:08 PM MST). Ten new evidence records: N26_NOV16_AK_RESULTS, N26_NOV16_AK_RESULTS_PAGE, N26_NOV16_AK_SCHEDULE, N26_NOV16_AK_SENATE_STATUS, N26_NOV16_AK_GOV_CALL, N26_NOV16_AK_GOV_REPORT, N26_NOV16_AK_BALLOT2, N26_NOV16_CA4_CALL, N26_NOV16_CO4_CALL, N26_NOV16_CO4_LOCAL. The combined register contains 724 sources.
+
+- AP Alaska governor alert: November 14 at 05:01:39 UTC, corresponding to November 13 in Alaska. AP’s feature followed at 05:07:35 UTC. Publication is distinct from an exact decision-desk timestamp; the earlier CNN projection remains dated separately.
+- AP reports Alaska rejected Ballot Measure 2; voting rules retained.
+- Alaska Senate remains uncalled. The official PDF prints November 14 at 3:15:40 p.m. with no time zone: Peltola 140,637 (49.94%), Dan S. Sullivan 129,424 (45.96%), Heikes 6,002 (2.13%), Daniel J. Sullivan Jr. 4,652 (1.65%), write-in 872 (0.31%); total 281,587. This denominator includes write-ins. It is not replaced with a 50.1% share calculated from a named-candidate subtotal. The governor ticket Kreiss-Tomkins/Johnson has 141,623 (50.90%) of 278,254 first-choice votes. Returns remain unofficial.
+- The official page’s November 14 3:49 p.m. update, its separate statistics refresh, the PDF’s source clock and this review timestamp are distinct. November 18 required ranked-choice tabulation and November 25 target certification remain scheduled steps.
+- KQED records the AP California 4 call for Eric Jones over fellow Democrat Mike Thompson on November 13 at 5:25 p.m. Pacific (November 14 01:25 UTC), after the prior archive cutoff. No live CA vote totals are copied.
+- AP’s Colorado 4 report, published November 13 at 19:53:43 UTC, confirms Laubacher over Boebert. That precedes the prior 20:49 UTC archive cutoff and is a newly verified earlier report, not a new November 16 call.
+
+All 34 earlier Senate calls, all 60 presidential election objects and all old external source records remain unchanged. No final House/whole-Senate or combined national governor tally is introduced. Older dated research sections remain historical review records. The House and governor examples concern different offices and electorates; they do not establish individual switching or durable realignment.
