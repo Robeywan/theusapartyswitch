@@ -1,6 +1,6 @@
-# American Party History
+# American Political History
 
-Canonical site: [americanpartyhistory.com](https://americanpartyhistory.com/).
+Canonical site: [americanpoliticalhistory.org](https://americanpoliticalhistory.org/).
 
 An expanding atlas of American political party history, with party change and Democratic–Republican realignment at its center. The original October 29, 2026 study is joined by the November 11, 2026 national, state and territorial party-history companion.
 
@@ -53,7 +53,7 @@ The visual design uses a navy masthead, crimson and gold details, a historical f
 
 ## Custom domain
 
-The root `CNAME` file specifies `americanpartyhistory.com` as the GitHub Pages custom domain. The root `.nojekyll` file disables Jekyll processing so GitHub Pages serves this static website directly. Keep both files in the published branch’s root. Repository publication, GitHub Pages settings, and domain DNS configuration are separate setup steps.
+The root `CNAME` file specifies `americanpoliticalhistory.org` as the GitHub Pages custom domain. The root `.nojekyll` file disables Jekyll processing so GitHub Pages serves this static website directly. Keep both files in the published branch’s root. Repository publication, GitHub Pages settings, and domain DNS configuration are separate setup steps.
 
 ## Ask the atlas
 
