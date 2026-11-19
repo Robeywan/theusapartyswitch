@@ -15,11 +15,11 @@ This repository root contains the complete static website. For GitHub Pages, pub
 - 60 presidential election allocation maps, 1789–2024
 - All 50 states and Washington, DC; Alaska and Hawaii statehood in 1959
 - 32 narrative checkpoints and 51 midterm entries
-- 724 manuscript, companion, institutional, and election-reporting source records
+- 735 manuscript, companion, institutional, and election-reporting source records
 - Party comparisons, demographic readings and tables, and nine regional case studies
 - Per-state electoral histories, split-elector details, and CSV export
 
-The timeline covers 1789–2026. Election reporting was reviewed November 16, 2026. The dated update adds an AP Alaska governor call, a voting-system measure result, newer unofficial Alaska first-choice returns and two House examples. The Senate layer retains 34 calls across 35 contests (21 Democratic/13 Republican), with Alaska uncalled. Earlier calls and source dates remain intact; no final national congressional tally or completed certification is asserted. Presidential allocations still end in 2024.
+The timeline covers 1789–2026. The November 18, 2026 update includes the Alaska Senate call for Mary Peltola, the Alaska House call for Nick Begich, and the state’s unofficial returns. AP has called all 35 Senate contests (22 Democratic and 13 Republican). The timeline separately reports AP’s 56–44 incoming Senate balance.
 
 ## Map methodology
 

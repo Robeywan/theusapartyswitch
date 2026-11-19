@@ -127,3 +127,22 @@ Review timestamp: 2026-11-16T19:08:05.981Z (November 16, 2026 at 12:08 PM MST). 
 - AP’s Colorado 4 report, published November 13 at 19:53:43 UTC, confirms Laubacher over Boebert. That precedes the prior 20:49 UTC archive cutoff and is a newly verified earlier report, not a new November 16 call.
 
 All 34 earlier Senate calls, all 60 presidential election objects and all old external source records remain unchanged. No final House/whole-Senate or combined national governor tally is introduced. Older dated research sections remain historical review records. The House and governor examples concern different offices and electorates; they do not establish individual switching or durable realignment.
+
+
+## November 18, 2026 election review
+
+AP called Alaska’s Senate race for Democrat Mary Peltola over Republican incumbent Dan Sullivan on November 17 in Alaska. In the state’s November 18 unofficial report, Peltola received 144,486 first-choice votes (50.13%) and Sullivan received 131,965 (45.79%), out of 288,207 including write-ins. Peltola crossed the first-choice majority threshold, so the Senate contest required no elimination rounds. [N26_NOV18_AK_SENATE_CALL; N26_NOV18_AK_COUNTS; N26_NOV18_AK_STATUS]
+
+AP called Alaska’s at-large House race for Republican incumbent Nick Begich on November 18 in Alaska. In the state’s unofficial third round, Begich received 140,346 votes (51.35%) and Bill Hill, listed as nonpartisan by the state, received 132,961 (48.65%). Those shares use the 273,307 ballots continuing in that round. [N26_NOV18_AK_HOUSE_CALL; N26_NOV18_AK_HOUSE_RCV]
+
+AP has called all 35 Senate contests. Democrats won 22 of those seats and Republicans won 13. AP reports an incoming Senate split of 56–44, counting the full chamber and senators who caucus with Democrats. Regular terms begin January 3, 2027. [N26_NOV18_SENATE_BALANCE; N26_SEN_SCOPE; N26_TERMS]
+
+Alaska posted its November 18 tabulation and continues to label the returns unofficial. The division’s schedule targets November 25 for certification. [N26_NOV18_AK_STATUS; N26_NOV16_AK_SCHEDULE]
+
+The November 18 unofficial report gives the Jonathan Kreiss-Tomkins–Zac Johnson ticket 145,449 first-choice votes (51.08%) out of 284,745. AP called the governorship for Kreiss-Tomkins on November 13 in Alaska. [N26_NOV18_AK_COUNTS; N26_NOV16_AK_GOV_CALL]
+
+Kansas reported on November 17 that all 105 counties had completed audits and county canvasses, including the close-race audit for governor. State certification is a later step. [N26_NOV18_KS_CANVASS]
+
+North Carolina’s 5th and 10th Congressional Districts were awaiting recounts in November 18 reporting. The state lists recount requests from Virginia Foxx (November 17) and Ashley Bell (November 13). [N26_NOV18_NC05_RECOUNT; N26_NOV18_NC10_RECOUNT; N26_NOV18_NC_RECOUNT_REPORT]
+
+The Alaska first-choice summary displays 5:25:35 p.m. on November 18. The Alaska House ranked-choice report displays a 5:20:30 p.m. tabulation time and a 5:38:29 p.m. report time. Its continuing-ballot count differs from the first-choice summary. AP’s Alaska Senate alert was published November 18 at 03:20:05 UTC (November 17 in Alaska). Its Alaska House alert was published November 19 at 02:27:39 UTC (November 18 in Alaska).
